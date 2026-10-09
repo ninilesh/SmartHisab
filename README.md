@@ -1,16 +1,84 @@
-# React + Vite
+# SmartHisab — Business & Accounting Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SmartHisab is a React-based business management application designed to help small businesses manage everyday accounting workflows in one place.
 
-Currently, two official plugins are available:
+## ✨ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+SmartHisab aims to simplify business operations by bringing accounting and business management features into a single interface.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Party Management** — Manage customer and supplier records.
+- **Inventory Management** — Organize product and stock information.
+- **GST Invoicing** — Support invoice workflows for Indian businesses.
+- **Payment Tracking** — Keep track of business payment records.
+- **Sales Dashboard** — View key sales information in one place.
 
-## Expanding the ESLint configuration
+> Note: Feature availability may depend on the current implementation of the application.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- Vite
+- npm
+
+## 💻 Getting Started
+
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/) and npm before starting.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ninilesh/SmartHisab.git
+   ```
+
+2. Open the project directory:
+
+   ```bash
+   cd SmartHisab
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## 📁 Project Structure
+
+```text
+SmartHisab/
+├── public/
+├── src/
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🎯 Project Goal
+
+Build a practical, accessible business management tool that helps Indian small businesses organize their accounting and day-to-day operations.
+
+## 👨‍💻 Author
+
+**Nilesh Raikwar**
+
+GitHub: [@ninilesh](https://github.com/ninilesh)
+
+---
+
+If you find this project useful, consider giving the repository a ⭐.
